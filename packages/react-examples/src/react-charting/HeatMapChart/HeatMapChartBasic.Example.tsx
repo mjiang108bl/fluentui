@@ -319,7 +319,7 @@ export class HeatMapChartBasicExample extends React.Component<{}, IHeatMapChartB
           onChange={this._onHeightChange}
           aria-valuetext={`ChangeHeightSlider${this.state.height}`}
         />
-        <p>Heat map explaining the Air Quality Index</p>
+        <p>Heat map explaining the Air Quality Index!</p>
         <div style={rootStyle}>
           <HeatMapChart
             culture={window.navigator.language}
